@@ -2,10 +2,7 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -36,3 +33,84 @@
     transform: rotate(360deg);
   }
 }
+
+.addForm{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+  padding-top: 200px;
+  padding: 100px;
+
+  
+}
+.addForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  max-width: 400px;
+  margin: 50px auto 0;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+
+
+.addForm .MuiTextField-root {
+  margin-bottom: 20px;
+}
+
+.addForm h4 {
+  margin-top: 20px;
+}
+.TextField{
+  margin-bottom: 10px;
+  width: 500;
+  max-width: 100%;
+}
+
+.portal{
+  display: flex;
+  flex-direction: column;
+}
+
+.movie-container{
+  margin: 30px;
+  padding: 23px;
+  width: 300px;
+  box-shadow: 5px 10px 20px rgb(196, 34, 46);
+  background-color:blue;
+  border-radius: 10px;
+  background-color: whitesmoke;
+  align-items: center;
+  box-shadow: #61dafb;
+  
+
+}
+
+.movie-poster{
+  height: 300px;
+  width:300px;
+  object-fit: 1;
+  border-radius: 20px; 
+
+}
+
+.movie-spec{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+movie-summary{
+  text-align: justify;
+}
+
+.movie-list{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
