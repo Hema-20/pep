@@ -11,7 +11,7 @@ export default function MovieDetail() {
     const[movie,setMovie] = useState([]);
 
     useEffect(() => {
-        fetch(`https://65f16b7c034bdbecc762705b.mockapi.io/movie/${id}`,{
+        fetch(`http://localhost:4001/api/movies/${id}`,{
             method:"GET"
         })
         .then((data)=>data.json())
